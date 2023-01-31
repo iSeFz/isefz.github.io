@@ -1,0 +1,29 @@
+html { height: 100%; }
+
+body {
+    height: 98%;
+    display: grid;
+    place-items: center;
+    background: rgb(9, 29, 71);
+    font-family: 'Noto Sans', 'sans-serif';
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p { line-height: 1.3rem; }
+
+.container {
+    color: white;
+    max-width: 500px;
+    text-align: center;
+}
+
+.brand {
+    width: 32px;
+    margin: 4px;
+}
+
+.brand:hover { opacity: .8; }
